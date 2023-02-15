@@ -8,6 +8,9 @@ font-family: 'Dorsa', sans-serif;
 font-family: 'Notable', sans-serif;
 font-family: 'WindSong', cursive;
 */ 
+html{
+  scroll-behavior: smooth;
+}
 /*HEADER*/
 .header {
   background-color: #D9D9D9;
