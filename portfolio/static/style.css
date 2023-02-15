@@ -29,6 +29,7 @@ body{
   display: flex;
   align-items: center;
   justify-content: center;
+  width: 110px;
 }
 .nav ul li a {
   text-align: none;
@@ -156,8 +157,15 @@ h2 {
   margin: auto;
   text-align: center;
   border-radius: 250px;
-  box-shadow: 0px 0px 60px 23px rgba(122,122,122,0.48);}
-.title{
+  box-shadow: 0px 0px 60px 23px rgba(122,122,122,0.48);
+  position: absolute;
+  top: 200px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: max-content;
+} 
+  .title{
   margin-top: 40px;
   font-size: 72px;
   font-family: 'Dorsa', sans-serif;
